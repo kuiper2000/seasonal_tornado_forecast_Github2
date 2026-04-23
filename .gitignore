@@ -1,0 +1,12 @@
+# ── Ignore everything by default ──────────────────────────────────────────────
+*
+
+# ── Explicitly allow the files we want on GitHub ──────────────────────────────
+!.gitignore
+!Tornado_github.py
+!Tornado_github.ipynb
+!github_demo.npz
+!SST_EOFs_1995_2017_based.npz
+
+# ── Allow git itself to track directories ─────────────────────────────────────
+!.gitignore
