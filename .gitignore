@@ -1,12 +1,15 @@
 # ── Ignore everything by default ──────────────────────────────────────────────
 *
 
-# ── Explicitly allow the files we want on GitHub ──────────────────────────────
+# ── Explicitly allow root-level demo files ────────────────────────────────────
 !.gitignore
 !Tornado_github.py
 !Tornado_github.ipynb
 !github_demo.npz
 !SST_EOFs_1995_2017_based.npz
 
-# ── Allow git itself to track directories ─────────────────────────────────────
-!.gitignore
+# ── Allow Github_Demo/ subdirectory and all its contents ──────────────────────
+!Github_Demo/
+!Github_Demo/**
+Github_Demo/.ipynb_checkpoints/
+Github_Demo/**/.ipynb_checkpoints/
